@@ -96,6 +96,7 @@ int print_S(va_list S)
  * @r: string to print
  *
  * Return: number of chars printed
+ * Description: prints the string in reverse order
  */
 int print_r(va_list r)
 {

@@ -31,7 +31,7 @@ static int (*check_for_spec(const char *format))(va_list)
 	{
 		if (*(prt[i].c) == *format)
 		{
-			break;
+			return (prt[i].f);
 		}
 	}
 	return (prt[i].f);
