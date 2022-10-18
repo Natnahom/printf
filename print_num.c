@@ -5,6 +5,9 @@
  * @i: integer to print
  *
  * Return: number of chars and digits printed
+ *
+ * Description: this funciton will print all the intiger numbers
+ * in 10 decimal playces
  */
 int print_i(va_list i)
 {
@@ -44,6 +47,9 @@ int print_i(va_list i)
  * @d: decimal to print
  *
  * Return: number of chars and digits printed
+ *
+ * Description: this function will print all the decimal numbers
+ * in 10 decimal playces
  */
 int print_d(va_list d)
 {

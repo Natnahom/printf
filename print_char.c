@@ -107,7 +107,8 @@ int print_r(va_list r)
 		str = ")llun(";
 	for (i = 0; str[i]; i++)
 		;
-	for (i -= 1; i >= 0; i--)
+	i = i - 1;
+	for (; i >= 0; i--)
 	{
 		putchar(str[i]);
 		count++;
